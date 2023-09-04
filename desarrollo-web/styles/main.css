@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos del Header */
+.nav__container {
+  background-color: #0D1B2A;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 8rem 1.5rem 8rem;
+}
+
+.nav__menu-container {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+li a {
+  color: #E0E1DD;
+  text-decoration: none;
+}
+
+.nav__link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #778DA9;
+}
+
+h3 {
+  color: #E0E1DD;
+}
+
+/* FIN ESTILOS DEL HEADER */
+
+.main__container {
+  background-image: url('https://i.pinimg.com/originals/8d/33/80/8d3380e3d13f368c156df01ada661766.jpg');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
